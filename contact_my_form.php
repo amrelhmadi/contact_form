@@ -1,3 +1,4 @@
+<!-- Please Enter Your Email Below -->
 <?php
     if (isset($_POST["submit"])) { 
 
@@ -23,7 +24,7 @@
         if ($error) {
             $result = '<div class="alert alert-danger"><strong>There Were Error(s)'.$error.'</strong></div>';
         } else {
-            $to         = "amralhmady33@yahoo.com";
+            $to         = "EnterEmail"; /* Please Enter Your Email Here */
             $title      =  $subject;
             $contant    =  $message;
             $header     =  "From:".$email."\r\n" ;
