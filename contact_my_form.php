@@ -75,6 +75,7 @@
             padding-bottom: 20px;
         }
     </style>
+    <!-- End of Style  -->
 
 </head>
 <body>
